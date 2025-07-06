@@ -1,0 +1,85 @@
+@media only screen and (min-width:200px) and (max-width:991px)
+{
+    .btn-outer{
+        position:fixed;
+        bottom:0px;
+        width:100%;
+        left:0;
+        background-color: white;
+        padding: 5px 0px;
+        justify-content: center !important;
+    }
+
+    .wattsapp,.call{
+        padding:7px 15px;
+        font-size: 14px;
+       
+    }
+
+    .banner-content h1{
+     font-size: 25px;
+     font-weight: bold;
+     text-align: center;
+    }
+
+    .banner-content p{
+    font-size: 14px;
+    }
+
+    .banner-content ul li{
+     font-size: 14px;
+    }
+
+    .banner-content-btn{
+        display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
+
+    .banner-content-btn button{
+        font-size: 12px;
+    }
+
+    .banner-content{
+        margin-bottom: 30px;
+    }
+
+    .banner-form{
+       padding: 20px;
+    }
+    
+    .counter-section{
+     margin-top: 60px;
+    }
+
+    .counter-section h2{
+        font-size: 20px
+    }
+
+    .counter-section p{
+        font-size: 12px;
+    }
+
+    .highlights-section h2{
+      font-weight: 500;
+    }
+
+    .highlights-section p{
+    font-size: 14px;
+     }
+
+     .career-section h2{
+      font-weight:none;
+       }
+
+} 
+
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+

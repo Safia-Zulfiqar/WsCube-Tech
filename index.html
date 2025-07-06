@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WsCubeTech</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- enquiry model -->
+    <div class="modal fade" id="register-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              🎉Regitration Successful!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Thank you for registering! We’ll be in touch soon.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">
+              Submit Another Response
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a name="Top"></a>
+    <header
+      class="container-fluid py-1 shadow-lg position-sticky top-0 bg-white"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <figure class="col-lg-6 col-12 mb-0 text-lg-start text-center">
+            <img src="images/wscube-tech-logo-2.svg" alt="WsCube Tech logo" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer d-flex gap-3 justify-content-end">
+              <button class="wattsapp btn btn-outline-success">
+                <i class="fa-brands fa-whatsapp"></i> chat with us
+              </button>
+              <button class="call btn btn-primary">
+                <i class="fa-solid fa-phone"></i> Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between gy-4 align-items-center">
+          <div class="col-lg-6">
+            <div class="banner-content">
+              <h1>
+                Career Opportunities <br />in <span>Digital Marketing </span>
+              </h1>
+              <p>
+                Digital marketing course so good, you only pay after payment
+              </p>
+              <ul class="m-0 p-0">
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> Specilaization:
+                  Performance Marketing
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5
+                  LPA
+                </li>
+                <li class="mb-3">
+                  <i class="fa-solid fa-circle-check"></i> 50 seats only
+                </li>
+              </ul>
+
+              <div class="banner-content-btn">
+                <div
+                  class="row gap-3 justify-content-center justify-content-lg-start"
+                >
+                  <button class="col-5 btn btn-primary">About Us</button>
+                  <button class="col-5 btn btn-outline-secondary">
+                    <i class="fa-solid fa-download"></i> Download curriculum
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form
+              id="Demo-registerForm"
+              action=""
+              class="banner-form shadow-lg"
+            >
+              <h4>Book Your Free Class Now!</h4>
+              <p>2 days of free demo classes without paying in advance!</p>
+
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id=""
+                  placeholder="enter your name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id=""
+                  placeholder="enter your email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">+92</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary d-flex">
+                Register Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container shadow-lg counter-section rounded-3">
+        <div
+          class="row row-cols-lg-5 row-cols-2 p-lg-4 p-sm-2 gy-3 justify-content-center text-center"
+        >
+          <div class="col">
+            <h2>1000+</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2><i class="fa-solid fa-indian-rupee-sign"></i> 4.5LPA</h2>
+            <p>Student Trained</p>
+          </div>
+          <div class="col">
+            <h2>320+</h2>
+            <p>Recruiting partners</p>
+          </div>
+          <div class="col">
+            <h2>10:00 am</h2>
+            <p>Program Timings</p>
+          </div>
+          <div class="col">
+            <h2>11th May</h2>
+            <p>Next batch starts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid highlights-section mt-5">
+      <div class="container">
+        <div class="row pt-5 pb-3">
+          <div class="col-12">
+            <h2>Key Highlights of the Course</h2>
+            <p>
+              Explore these highlights to see how this course can accelerate
+              your learning and boost your career prospects.
+            </p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H1 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>
+                  Assignments and <br />
+                  Modules Tests
+                </h4>
+                <p>Test your knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H2 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>Industry-recognised Certification</h4>
+                <p>Stand out to your professionals</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H3 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>Live Classes and <br />Recorded Lectures</h4>
+                <p>Best of both worlds of learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H4 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>Downloadable <br />Content</h4>
+                <p>With lifetime access</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H5 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>6 Industry Level <br />Projects</h4>
+                <p>Get practical skills</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlight-items rounded-3"
+            >
+              <img
+                src="images/H6 logo.png"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>4 Live Doubts Clearing Sessions</h4>
+                <p>Gain a clear understanding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-2 col-6 col-md-3">
+            <button
+              type="button"
+              class="btn btn-primary highlights-button mt-5 mb-5"
+            >
+              <a href="#Top">Book Free Classs</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid career-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 mt-5 mb-3">
+            <h2>
+              Top Career Optins in <br />
+              Digital Marketing
+            </h2>
+            <p>Discover top digital marketing careers shaping the future.</p>
+          </div>
+        </div>
+
+        <div class="row gx-5 gy-5 mb-5 pb-5">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="p-4 pb-2 shadow-lg rounded-3 bg-white career-item">
+              <img
+                src="images/C1.png"
+                alt=""
+                width="60px"
+                height="60px"
+                class="shadow-lg"
+              />
+              <div class="mt-3">
+                <h6>Content Marketer</h6>
+                <p>
+                  Creates engaging blog posts, articles, and media to attract
+                  and retain customers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="p-4 pb-2 shadow-lg rounded-3 bg-white career-item">
+              <img
+                src="images/C2.png"
+                alt=""
+                width="60px"
+                height="60px"
+                class="shadow-lg"
+              />
+              <div class="mt-3">
+                <h6>SEO Specialist</h6>
+                <p>
+                  Optimizes website content and structure to rank higher in
+                  search engine results.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="p-4 pb-2 shadow-lg rounded-3 bg-white career-item">
+              <img
+                src="images/C3.png"
+                alt=""
+                width="60px"
+                height="60px"
+                class="shadow-lg"
+              />
+              <div class="mt-3">
+                <h6>Social Media Manager</h6>
+                <p>
+                  Manages brand presence on social platforms to engage audiences
+                  and grow followers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="p-4 pb-2 shadow-lg rounded-3 bg-white career-item">
+              <img
+                src="images/C4.png"
+                alt=""
+                width="60px"
+                height="60px"
+                class="shadow-lg"
+              />
+              <div class="mt-3">
+                <h6>Marketing Analyst</h6>
+                <p>
+                  Analyzes marketing data to guide strategies and improve
+                  campaign performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid certificate-section">
+        <div class="container">
+          <div class="row pt-5 gx-5 gy-5 justify-content-center">
+            <div class="col-lg-6 col-12">
+              <div>
+                <h2>Get Certified</h2>
+                <p>
+                  Boost your credibility and career opportunities by earning a
+                  recognized professional certification today.
+                </p>
+              </div>
+
+              <div class="row">
+                <div class="col-12 mt-4">
+                  <div
+                    class="bg-white p-3 d-flex align-items-start gap-3 certificate-item rounded-3"
+                  >
+                    <img
+                      src="images/cer1.png"
+                      alt=""
+                      width="70px"
+                      height="70px"
+                      class="rounded-3"
+                    />
+                    <div>
+                      <h5>Official And Verifie</h5>
+                      <p>
+                        Earn certifications that are officially recognized and
+                        verified, enhancing your credibility and professional
+                        profile.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div
+                    class="bg-white p-3 d-flex align-items-start gap-3 certificate-item rounded-3"
+                  >
+                    <img
+                      src="images/cer2.png"
+                      alt=""
+                      width="70px"
+                      height="70px"
+                      class="rounded-3"
+                    />
+                    <div>
+                      <h5>Easily Shearable</h5>
+                      <p>
+                        Share your certifications instantly across platforms
+                        like LinkedIn, email, or resumes with just a click.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div
+                    class="bg-white p-3 d-flex align-items-start gap-3 certificate-item rounded-3"
+                  >
+                    <img
+                      src="images/cer3.png"
+                      alt=""
+                      width="70px"
+                      height="70px"
+                      class="rounded-3"
+                    />
+                    <div>
+                      <h5>Career Shifting</h5>
+                      <p>
+                        Use certifications to pivot into new fields with
+                        confidence and demonstrate your updated skills.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div
+                    class="bg-white p-3 d-flex align-items-start gap-3 certificate-item rounded-3"
+                  >
+                    <img
+                      src="images/cer4.png"
+                      alt=""
+                      width="70px"
+                      height="70px"
+                      class="rounded-3"
+                    />
+                    <div>
+                      <h5>Boost Confidence</h5>
+                      <p>
+                        Validate your knowledge with certifications and feel
+                        more confident in your skills and decisions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <div
+                    class="bg-white p-3 d-flex align-items-start gap-3 certificate-item rounded-3"
+                  >
+                    <img
+                      src="images/cer5.png"
+                      alt=""
+                      width="70px"
+                      height="70px"
+                      class="rounded-3"
+                    />
+                    <div>
+                      <h5>Stand Out to Employers</h5>
+                      <p>
+                        Make your resume stand out—certifications show
+                        initiative, dedication, and proven expertise.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-12 certificate p-sm-5">
+              <img
+                src="images/certificate.png"
+                alt="certificate"
+                class="img-fluid mx-auto d-block"
+              />
+            </div>
+
+            <div class="col-12">
+              <button
+                type="button"
+                class="btn btn-primary highlights-button mb-5"
+              >
+                <a href="#Top">Book Free Classs</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid curriculum-section">
+      <div class="container">
+        <div class="row pt-5 text-center">
+          <h2>
+            Curriculum of <br />
+            Our Digital Marketing
+          </h2>
+          <p>
+            "Explore a comprehensive curriculum covering SEO, social media,
+            content marketing, analytics, and more."
+          </p>
+        </div>
+
+        <div class="row mt-5 curriculum-items text-center">
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">Introduction</a>
+          </div>
+
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">Case Studies</a>
+          </div>
+
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">Google Adsense</a>
+          </div>
+
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">SEO Mastery</a>
+          </div>
+
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">Google Analytics</a>
+          </div>
+
+          <div class="col-md-2 col-12 pb-2">
+            <a href="#">PPC Mastery</a>
+          </div>
+        </div>
+
+        <div class="container shadow-lg mt-5 curriculum-content">
+          <div class="row p-md-5">
+            <div class="col-md-6 col-12">
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> What is Digital
+                  Marketing?
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Requirement of
+                  Digital Marketing.
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Digital Marketing
+                  for Working professionals.
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Job opportunities
+                  in Digital Marketing
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-12">
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Scop of Digital
+                  Marketing
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Latest trends in
+                  Digital marketing
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i> Digital Marketing
+                  for small and large businesses
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4 col-8">
+            <button type="button" class="btn btn-primary mt-5 mb-5">
+              Download Curriculum
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid learning-DM pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pt-5">
+            <h2>Why Learn Digital Marketing?</h2>
+            <p>
+              Unlock your career potential in the dynamic world of digital
+              marketing. Our program equips you with cutting-edge skills and
+              practical experience to thrive in today's digital landscape.
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-5 gy-5 mb-5 pb-5 mt-1">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn1.png" alt="" width="60px" height="60px" />
+              <div class="mt-3">
+                <h6>Learn fron Industry Experts</h6>
+                <p>
+                  Gain invaluable insights and practical knowledge from seasoned professionals who are actively shaping the digital marketing industry. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn2.png" alt="" width="60px" height="60px" />
+              <div class="mt-3">
+                <h6>Structured and Latest Curriculum</h6>
+                <p>
+                  Our meticulously designed curriculum is constantly updated to reflect the newest trends and technologies in digital marketing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn3.png" alt="" width="60px" height="60px" />
+              <div class="mt-3">
+                <h6>Highly Engaging live Classes</h6>
+                <p>
+                  Engage in dynamic discussions, ask questions in real-time, and collaborate with peers to enhance your learning experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn4.png" alt="" width="60px" height="60px" />
+              <div class="mt-3">
+                <h6>Work on Real Projects</h6>
+                <p>
+                  Apply your knowledge to practical, hands-on projects that simulate real-world digital marketing campaigns.Build a robust portfolio that showcases your skills
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn5.png" alt="" width="60px" height="60px" ">
+              <div class="mt-3">
+                <h6>100 Job Assistance</h6>
+                <p>
+                  From resume building and interview preparation to connecting you with top companies, we provide comprehensive assistance to help you secure your dream job.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-4 pb-2 rounded-3 bg-white career-item">
+              <img src="images/learn6.png" alt="" width="60px" height="60px" />
+              <div class="mt-3">
+                <h6>Get Certification</h6>
+                <p>Earn a recognized certification that validates your expertise. This credential enhances your credibility and opens doors to exciting career opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid pb-5">
+      <div class="container">
+        <div class="row pt-5 text-center">
+          <div class="col-12">
+            <h2>What our Students <br>Are Saying!</h2>
+            <p>Learning with this platform was a game-changer for me!</p>
+          </div>
+        </div>
+
+        <div class="row mt-4 gx-5 gy-5">
+           <div class="col-md-6 col-12">
+            <div
+              class="bg-white  shadow-lg p-3 highlight-items rounded-3"
+            >
+            <div class="d-flex align-items-start gap-3">
+              <img
+                src="images/passport-photo.jpeg"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>
+                 Matt Cannon
+                </h4>
+                <p>September 1, 2023</p>
+              </div>
+            </div>
+              <div class="mt-3">
+                <p>"This course exceeded my expectations. The instructors explained every concept clearly, and the practical exercises helped me gain real-world skills. I feel much more confident now!"</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-12">
+            <div
+              class="bg-white  shadow-lg p-3 highlight-items rounded-3"
+            >
+            <div class="d-flex align-items-start gap-3">
+              <img
+                src="images/passport-photo.jpeg"
+                alt=""
+                width="70px"
+                height="70px"
+                class="rounded-3"
+              />
+              <div>
+                <h4>
+                 Matt Cannon
+                </h4>
+                <p>September 1, 2023</p>
+              </div>
+            </div>
+              <div class="mt-3">
+                <p>"This course exceeded my expectations. The instructors explained every concept clearly, and the practical exercises helped me gain real-world skills. I feel much more confident now!"</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="container  mt-5 p-5 review-section-item rounded-4">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2>Are You Ready To Start Your Course?</h2>
+              <p>Don’t wait for the perfect moment. Start now and build your future!</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+           <div class="col-lg-3 col-8 col-md-5">
+             <button
+              type="button"
+              class="btn btn-primary review-button"
+             >
+              <a href="#Top">Book Free Classs</a>
+             </button>
+           </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="container-fluid pb-5 text-center">
+       <div class="container text-white">
+        <img src="images/wscube-tech-logo-2.svg" alt="" class="mt-5 mb-4">
+        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam cum autem vel, accusantium corrupti fugit laudantium illo nisi commodi eius maiores tenetur cupiditate sequi rem, iusto quia dicta obcaecati quo.</p>
+
+        <hr>
+
+        <p>All rights reserved by WScube Tech</p>
+
+       </div>
+    </footer>
+
+  </body>
+  <script src="js/script.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"
+  ></script>
+</html>

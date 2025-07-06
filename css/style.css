@@ -1,0 +1,164 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.btn-primary{
+    background:linear-gradient(to right, #0ACEFE,#2699FB);
+}
+
+.banner-content h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.banner-content h1 span {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p{
+    font-size: 22px;
+}
+
+.banner-content ul{
+    list-style: none;
+}
+
+.banner-content ul li{
+    font-size: 22px;
+}
+
+.banner-content ul li i{
+    color:#2699FB
+}
+
+.banner-form{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.banner-form button{
+    width: 100%;
+    justify-content: center;
+}
+
+.counter-section{
+    margin-top: 100px;
+}
+
+.counter-section h2{
+    font-size: 30px;
+    color: #2699FB;
+}
+
+.highlights-section{
+    background-color: rgb(243 242 242);
+}
+
+
+.highlight-items h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.highlight-items p{
+    font-size: 15px;
+}
+
+.highlight-items{
+    transition: transform 0.2s ease-in-out;
+}
+
+.highlight-items:hover{
+    transform: translateY(-13px);
+}
+
+
+.highlights-button a{
+   text-decoration: none;
+   color: white;
+}
+
+
+.career-section p{
+    font-size: 15px;
+}
+
+.career-item h6{
+    font-weight: bold;
+}
+
+.career-item{
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .career-item:hover{
+    transform: translateY(-13px);
+  }
+
+  .certificate-section{
+    background-color: rgb(243 242 242);
+  }
+
+  .certificate-item h5{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .certificate-item p{
+    font-size: 14px; 
+  }
+
+  .certificate-item{
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .certificate-item:hover{
+    transform: translateY(-13px);
+  }
+
+  .curriculum-items a{
+     text-decoration: none;
+     color:black;
+     font-weight: bold;
+  }
+
+  .curriculum-items a:hover{
+    background-color: rgb(224, 221, 221) ;
+   text-decoration-line: underline;
+   text-decoration-color: #2699FB;
+  }
+
+
+  .curriculum-content li{
+    padding: 16px;
+  }
+
+  .curriculum-content i{
+    color: #2699FB;
+  }
+
+  .learning-DM{
+    background-color: rgb(243 242 242);
+  }
+
+  .review-section-item{
+   background:linear-gradient(to right, #0ACEFE,#2699FB);
+  }
+
+  .review-button{
+    background: white;
+  }
+    
+  .review-button a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer{
+    background-color: rgb(5, 5, 80);
+  }
+
+ 
+  
+
